@@ -4,6 +4,7 @@ import { Box, HStack, Heading, Stack, Text } from "@chakra-ui/react";
 import MenuComponent from "../src/Menu";
 import Introduction from "../src/Introduction";
 import Image from "next/image";
+import Portfolio from "../src/PortFoliio";
 
 const Home: NextPage = () => {
   return (
@@ -63,6 +64,7 @@ const Home: NextPage = () => {
             opacity={0.35}
           />
         </Box>
+        <Portfolio />
       </Box>
     </>
   );
