@@ -51,21 +51,18 @@ const Portfolio = () => {
           width="100%"
         >
           <Box height="10%">
-            <Heading size="2xl">Coding</Heading>
-            <Text>コーディング</Text>
+            <Heading size="2xl">Web Design</Heading>
+            <Text>ウェブデザイン</Text>
           </Box>
           <img
             style={{ height: "30%", padding: 5, marginTop: "40px" }}
-            src="/developer.svg"
+            src="/design.svg"
             alt=""
           />
 
           <Box height="60%">
             <Text fontSize="lg">
-              Next.jsやTypescriptを使用したモダンな
-              <br />
-              Webアプリケーションのコーディングを行い、
-              高速かつ耐久性の高いウェブアプリケーションの開発をします
+              ユーザーエクスペリエンスを最優先に考え、美しさと機能性のバランスを重視したブランドやコンテンツに適したデザインを提供します
             </Text>
           </Box>
         </Stack>
@@ -78,21 +75,22 @@ const Portfolio = () => {
           width="100%"
         >
           <Box height="10%">
-            <Heading size="2xl">Coding</Heading>
-            <Text>コーディング</Text>
+            <Heading size="2xl">Data Analysis</Heading>
+            <Text>データ分析</Text>
           </Box>
           <img
-            style={{ height: "30%", padding: 5, marginTop: "40px" }}
-            src="/developer.svg"
+            style={{
+              height: "30%",
+              padding: 5,
+              marginTop: "40px",
+            }}
+            src="/neurology.svg"
             alt=""
           />
 
           <Box height="60%">
             <Text fontSize="lg">
-              Next.jsやTypescriptを使用したモダンな
-              <br />
-              Webアプリケーションのコーディングを行い、
-              高速かつ耐久性の高いウェブアプリケーションの開発をします
+              データの収集から分析、可視化、報告までのフルサイクルのデータ分析を実装し、事実に基づいた意思決定や戦略策定のサポートを提供します。
             </Text>
           </Box>
         </Stack>
