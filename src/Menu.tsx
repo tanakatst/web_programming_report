@@ -19,7 +19,7 @@ const MenuComponent = () => {
       <MenuButton
         as={IconButton}
         aria-label="Options"
-        icon={<HamburgerIcon />}
+        icon={<HamburgerIcon  color='white' />}
         variant="outline"
       />
       <MenuList>
