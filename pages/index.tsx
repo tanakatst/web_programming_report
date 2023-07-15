@@ -5,11 +5,12 @@ import MenuComponent from "../src/Menu";
 import Introduction from "../src/Introduction";
 import Image from "next/image";
 import Portfolio from "../src/PortFoliio";
+import Products from "../src/Products";
 
 const Home: NextPage = () => {
   return (
     <>
-      <Box height="300vh" width="100%">
+      <Box height="340vh" width="100%">
         <Box w="100%" p={4} height="100vh" position="relative">
           <HStack justifyContent="space-between">
             <Box p={2}>
@@ -65,6 +66,7 @@ const Home: NextPage = () => {
           />
         </Box>
         <Portfolio />
+        <Products />
       </Box>
     </>
   );

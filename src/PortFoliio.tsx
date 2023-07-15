@@ -3,7 +3,7 @@ import React from "react";
 
 const Portfolio = () => {
   return (
-    <Box height="100vh" width="100%" px="13%" pt="80px">
+    <Box height="100vh" width="100%" px="13%" pt="150px">
       <Heading color="blackAlpha.700" size="2xl">
         SKILL
       </Heading>
