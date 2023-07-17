@@ -6,6 +6,7 @@ import Introduction from "../src/Introduction";
 import Image from "next/image";
 import Portfolio from "../src/PortFoliio";
 import Products from "../src/Products";
+import Footer from "../src/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -67,6 +68,7 @@ const Home: NextPage = () => {
         </Box>
         <Portfolio />
         <Products />
+        <Footer />
       </Box>
     </>
   );
