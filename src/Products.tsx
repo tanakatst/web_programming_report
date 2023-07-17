@@ -66,12 +66,12 @@ const Products = () => {
         >
           <Box height="10%">
             <Heading size="xl">Travel Plan Application</Heading>
-            <Text>中川ゼミブログ</Text>
+            <Text>旅行計画アプリケーション</Text>
           </Box>
           <Link href="https://nakagawa-semi-blog.vercel.app/">
             <img
               style={{ padding: 5, marginTop: "40px", cursor: "pointer" }}
-              src="/screen_shot.png"
+              src="/travelLogue.png"
               alt=""
             />
           </Link>
@@ -80,11 +80,11 @@ const Products = () => {
             <List pt={3} spacing={3}>
               <ListItem>
                 <ListIcon color="green.500" />
-                開発者：ゼミブログ開発メンバー２人
+                開発者：個人開発
               </ListItem>
               <ListItem>
                 <ListIcon color="green.500" />
-                使用技術：Next.js,ChakraUI,microCMS
+                使用技術：Next.js,Laravel等々
               </ListItem>
             </List>
           </Box>
