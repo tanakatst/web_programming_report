@@ -12,7 +12,7 @@ import Link from "next/link";
 const Products = () => {
   return (
     <Box bgColor="gray.50" height="100vh" width="100%" px="13%">
-      <Box py='80px'>
+      <Box py="80px">
         <Heading color="blackAlpha.700" size="2xl">
           PRODUCTS
         </Heading>
@@ -73,7 +73,7 @@ const Products = () => {
 
             <img
               style={{ padding: 5, marginTop: "40px", cursor: "pointer" }}
-              src="/travelLogue.png"
+              src="/screenShot.png"
               alt=""
             />
 
